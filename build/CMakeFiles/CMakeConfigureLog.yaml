@@ -24,9 +24,9 @@ events:
       The output was:
       0
       MSBuild version 17.12.12+1cce77968 for .NET Framework
-      Build started 12/22/2024 9:05:06 PM.
+      Build started 12/23/2024 1:36:52 PM.
       
-      Project "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\3.31.3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      Project "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\3.31.3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
         Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
@@ -42,13 +42,13 @@ events:
         CMakeCCompilerId.c
       Link:
         F:\\VSC\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\3.31.3\\CompilerIdC\\CompilerIdC.exe
+        CompilerIdC.vcxproj -> C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\3.31.3\\CompilerIdC\\CompilerIdC.exe
       AppLocalFromInstalled:
-        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\3.31.3\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\3.31.3\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
         'pwsh.exe' is not recognized as an internal or external command,
         operable program or batch file.
-        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\3.31.3\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
-        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\3.31.3\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\3.31.3\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\3.31.3\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
         :VCEnd
@@ -56,13 +56,13 @@ events:
       FinalizeBuildStatus:
         Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
         Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
-      Done Building Project "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\3.31.3\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      Done Building Project "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\3.31.3\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
       
       Build succeeded.
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:09.41
+      Time Elapsed 00:00:02.48
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -70,7 +70,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
       
       The C compiler identification is MSVC, found in:
-        C:/Users/Admin/Downloads/rstudio-master/cpp-webapp1/build/CMakeFiles/3.31.3/CompilerIdC/CompilerIdC.exe
+        C:/Users/Admin/Downloads/rstudio-master/cpp-webapp/build/CMakeFiles/3.31.3/CompilerIdC/CompilerIdC.exe
       
   -
     kind: "message-v1"
@@ -88,9 +88,9 @@ events:
       The output was:
       0
       MSBuild version 17.12.12+1cce77968 for .NET Framework
-      Build started 12/22/2024 9:05:17 PM.
+      Build started 12/23/2024 1:36:55 PM.
       
-      Project "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\3.31.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      Project "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\3.31.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
         Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
@@ -106,13 +106,13 @@ events:
         CMakeCXXCompilerId.cpp
       Link:
         F:\\VSC\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\3.31.3\\CompilerIdCXX\\CompilerIdCXX.exe
+        CompilerIdCXX.vcxproj -> C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\3.31.3\\CompilerIdCXX\\CompilerIdCXX.exe
       AppLocalFromInstalled:
-        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\3.31.3\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\3.31.3\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
         'pwsh.exe' is not recognized as an internal or external command,
         operable program or batch file.
-        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\3.31.3\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
-        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\3.31.3\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\3.31.3\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\3.31.3\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
@@ -120,13 +120,13 @@ events:
       FinalizeBuildStatus:
         Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
         Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      Done Building Project "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\3.31.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      Done Building Project "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\3.31.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
       
       Build succeeded.
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:06.61
+      Time Elapsed 00:00:02.27
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -134,7 +134,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/Users/Admin/Downloads/rstudio-master/cpp-webapp1/build/CMakeFiles/3.31.3/CompilerIdCXX/CompilerIdCXX.exe
+        C:/Users/Admin/Downloads/rstudio-master/cpp-webapp/build/CMakeFiles/3.31.3/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "try_compile-v1"
@@ -145,8 +145,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/Admin/Downloads/rstudio-master/cpp-webapp1/build/CMakeFiles/CMakeScratch/TryCompile-wpnjvg"
-      binary: "C:/Users/Admin/Downloads/rstudio-master/cpp-webapp1/build/CMakeFiles/CMakeScratch/TryCompile-wpnjvg"
+      source: "C:/Users/Admin/Downloads/rstudio-master/cpp-webapp/build/CMakeFiles/CMakeScratch/TryCompile-pbcreu"
+      binary: "C:/Users/Admin/Downloads/rstudio-master/cpp-webapp/build/CMakeFiles/CMakeScratch/TryCompile-pbcreu"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -154,278 +154,49 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Admin/Downloads/rstudio-master/cpp-webapp1/build/CMakeFiles/CMakeScratch/TryCompile-wpnjvg'
+        Change Dir: 'C:/Users/Admin/Downloads/rstudio-master/cpp-webapp/build/CMakeFiles/CMakeScratch/TryCompile-pbcreu'
         
-        Run Build Command(s): F:/VSC/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b18f5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): F:/VSC/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_25357.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.12.12+1cce77968 for .NET Framework
-        Build started 12/22/2024 9:05:25 PM.
+        Build started 12/23/2024 1:36:58 PM.
         
-        Project "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wpnjvg\\cmTC_b18f5.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pbcreu\\cmTC_25357.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_b18f5.dir\\Debug\\".
+          Creating directory "cmTC_25357.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wpnjvg\\Debug\\".
-          Creating directory "cmTC_b18f5.dir\\Debug\\cmTC_b18f5.tlog\\".
+          Creating directory "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pbcreu\\Debug\\".
+          Creating directory "cmTC_25357.dir\\Debug\\cmTC_25357.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_b18f5.dir\\Debug\\cmTC_b18f5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_b18f5.dir\\Debug\\cmTC_b18f5.tlog\\unsuccessfulbuild".
+          Creating "cmTC_25357.dir\\Debug\\cmTC_25357.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_25357.dir\\Debug\\cmTC_25357.tlog\\unsuccessfulbuild".
         VcpkgTripletSelection:
           Using triplet "x64-windows" from "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\"
           Using normalized configuration "Debug"
         ClCompile:
-          F:\\VSC\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b18f5.dir\\Debug\\\\" /Fd"cmTC_b18f5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "F:\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          F:\\VSC\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_25357.dir\\Debug\\\\" /Fd"cmTC_25357.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "F:\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34435 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /I"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b18f5.dir\\Debug\\\\" /Fd"cmTC_b18f5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "F:\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          cl /c /I"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_25357.dir\\Debug\\\\" /Fd"cmTC_25357.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "F:\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          F:\\VSC\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wpnjvg\\Debug\\cmTC_b18f5.exe" /INCREMENTAL /ILK:"cmTC_b18f5.dir\\Debug\\cmTC_b18f5.ilk" /NOLOGO /LIBPATH:"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Admin/Downloads/rstudio-master/cpp-webapp1/build/CMakeFiles/CMakeScratch/TryCompile-wpnjvg/Debug/cmTC_b18f5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Admin/Downloads/rstudio-master/cpp-webapp1/build/CMakeFiles/CMakeScratch/TryCompile-wpnjvg/Debug/cmTC_b18f5.lib" /MACHINE:X64  /machine:x64 cmTC_b18f5.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_b18f5.vcxproj -> C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wpnjvg\\Debug\\cmTC_b18f5.exe
+          F:\\VSC\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pbcreu\\Debug\\cmTC_25357.exe" /INCREMENTAL /ILK:"cmTC_25357.dir\\Debug\\cmTC_25357.ilk" /NOLOGO /LIBPATH:"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Admin/Downloads/rstudio-master/cpp-webapp/build/CMakeFiles/CMakeScratch/TryCompile-pbcreu/Debug/cmTC_25357.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Admin/Downloads/rstudio-master/cpp-webapp/build/CMakeFiles/CMakeScratch/TryCompile-pbcreu/Debug/cmTC_25357.lib" /MACHINE:X64  /machine:x64 cmTC_25357.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_25357.vcxproj -> C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pbcreu\\Debug\\cmTC_25357.exe
         AppLocalFromInstalled:
-          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wpnjvg\\Debug\\cmTC_b18f5.exe" "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_b18f5.dir\\Debug\\cmTC_b18f5.tlog\\cmTC_b18f5.write.1u.tlog" "cmTC_b18f5.dir\\Debug\\vcpkg.applocal.log"
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pbcreu\\Debug\\cmTC_25357.exe" "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_25357.dir\\Debug\\cmTC_25357.tlog\\cmTC_25357.write.1u.tlog" "cmTC_25357.dir\\Debug\\vcpkg.applocal.log"
           'pwsh.exe' is not recognized as an internal or external command,
           operable program or batch file.
-          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wpnjvg\\Debug\\cmTC_b18f5.exe" "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_b18f5.dir\\Debug\\cmTC_b18f5.tlog\\cmTC_b18f5.write.1u.tlog" "cmTC_b18f5.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
-          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wpnjvg\\Debug\\cmTC_b18f5.exe" "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_b18f5.dir\\Debug\\cmTC_b18f5.tlog\\cmTC_b18f5.write.1u.tlog" "cmTC_b18f5.dir\\Debug\\vcpkg.applocal.log"
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pbcreu\\Debug\\cmTC_25357.exe" "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_25357.dir\\Debug\\cmTC_25357.tlog\\cmTC_25357.write.1u.tlog" "cmTC_25357.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pbcreu\\Debug\\cmTC_25357.exe" "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_25357.dir\\Debug\\cmTC_25357.tlog\\cmTC_25357.write.1u.tlog" "cmTC_25357.dir\\Debug\\vcpkg.applocal.log"
         FinalizeBuildStatus:
-          Deleting file "cmTC_b18f5.dir\\Debug\\cmTC_b18f5.tlog\\unsuccessfulbuild".
-          Touching "cmTC_b18f5.dir\\Debug\\cmTC_b18f5.tlog\\cmTC_b18f5.lastbuildstate".
-        Done Building Project "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wpnjvg\\cmTC_b18f5.vcxproj" (default targets).
+          Deleting file "cmTC_25357.dir\\Debug\\cmTC_25357.tlog\\unsuccessfulbuild".
+          Touching "cmTC_25357.dir\\Debug\\cmTC_25357.tlog\\cmTC_25357.lastbuildstate".
+        Done Building Project "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pbcreu\\cmTC_25357.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:06.58
-        
-      exitCode: 0
-  -
-    kind: "message-v1"
-    backtrace:
-      - "F:/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
-      - "F:/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
-    message: |
-      Parsed C implicit link information:
-        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        linker tool for 'C': F:/VSC/2022/Community/VC/Tools/MSVC/14.42.34433/bin/HostX64/x64/link.exe
-        implicit libs: []
-        implicit objs: []
-        implicit dirs: []
-        implicit fwks: []
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "F:/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
-      - "F:/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
-      - "F:/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
-    message: |
-      Running the C compiler's linker: "F:/VSC/2022/Community/VC/Tools/MSVC/14.42.34433/bin/HostX64/x64/link.exe" "-v"
-      Microsoft (R) Incremental Linker Version 14.42.34435.0
-      Copyright (C) Microsoft Corporation.  All rights reserved.
-
----
-events:
-  -
-    kind: "message-v1"
-    backtrace:
-      - "F:/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
-      - "CMakeLists.txt:2 (project)"
-    message: |
-      The system is: Windows - 10.0.19045 - AMD64
-  -
-    kind: "message-v1"
-    backtrace:
-      - "F:/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "F:/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "F:/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:2 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler:  
-      Build flags: 
-      Id flags:  
-      
-      The output was:
-      0
-      MSBuild version 17.12.12+1cce77968 for .NET Framework
-      Build started 12/22/2024 9:07:10 PM.
-      
-      Project "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\3.31.3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
-      PrepareForBuild:
-        Creating directory "Debug\\".
-        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-        Creating directory "Debug\\CompilerIdC.tlog\\".
-      InitializeBuildStatus:
-        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
-      VcpkgTripletSelection:
-        Using triplet "x64-windows" from "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\"
-        Using normalized configuration "Release"
-      ClCompile:
-        F:\\VSC\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
-        CMakeCCompilerId.c
-      Link:
-        F:\\VSC\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\3.31.3\\CompilerIdC\\CompilerIdC.exe
-      AppLocalFromInstalled:
-        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\3.31.3\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
-        'pwsh.exe' is not recognized as an internal or external command,
-        operable program or batch file.
-        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\3.31.3\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
-        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\3.31.3\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
-      PostBuildEvent:
-        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
-        :VCEnd
-        CMAKE_C_COMPILER=F:\\VSC\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe
-      FinalizeBuildStatus:
-        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
-        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
-      Done Building Project "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\3.31.3\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
-      
-      Build succeeded.
-          0 Warning(s)
-          0 Error(s)
-      
-      Time Elapsed 00:00:06.28
-      
-      
-      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
-      
-      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
-      
-      The C compiler identification is MSVC, found in:
-        C:/Users/Admin/Downloads/rstudio-master/cpp-webapp1/build/CMakeFiles/3.31.3/CompilerIdC/CompilerIdC.exe
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "F:/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "F:/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "F:/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:2 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler:  
-      Build flags: 
-      Id flags:  
-      
-      The output was:
-      0
-      MSBuild version 17.12.12+1cce77968 for .NET Framework
-      Build started 12/22/2024 9:07:18 PM.
-      
-      Project "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\3.31.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
-      PrepareForBuild:
-        Creating directory "Debug\\".
-        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-        Creating directory "Debug\\CompilerIdCXX.tlog\\".
-      InitializeBuildStatus:
-        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
-      VcpkgTripletSelection:
-        Using triplet "x64-windows" from "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\"
-        Using normalized configuration "Release"
-      ClCompile:
-        F:\\VSC\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
-        CMakeCXXCompilerId.cpp
-      Link:
-        F:\\VSC\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\3.31.3\\CompilerIdCXX\\CompilerIdCXX.exe
-      AppLocalFromInstalled:
-        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\3.31.3\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
-        'pwsh.exe' is not recognized as an internal or external command,
-        operable program or batch file.
-        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\3.31.3\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
-        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\3.31.3\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
-      PostBuildEvent:
-        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
-        :VCEnd
-        CMAKE_CXX_COMPILER=F:\\VSC\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe
-      FinalizeBuildStatus:
-        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
-        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      Done Building Project "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\3.31.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
-      
-      Build succeeded.
-          0 Warning(s)
-          0 Error(s)
-      
-      Time Elapsed 00:00:07.00
-      
-      
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
-      
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
-      
-      The CXX compiler identification is MSVC, found in:
-        C:/Users/Admin/Downloads/rstudio-master/cpp-webapp1/build/CMakeFiles/3.31.3/CompilerIdCXX/CompilerIdCXX.exe
-      
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "F:/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
-      - "F:/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
-    checks:
-      - "Detecting C compiler ABI info"
-    directories:
-      source: "C:/Users/Admin/Downloads/rstudio-master/cpp-webapp1/build/CMakeFiles/CMakeScratch/TryCompile-xiwbcj"
-      binary: "C:/Users/Admin/Downloads/rstudio-master/cpp-webapp1/build/CMakeFiles/CMakeScratch/TryCompile-xiwbcj"
-    cmakeVariables:
-      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-    buildResult:
-      variable: "CMAKE_C_ABI_COMPILED"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/Admin/Downloads/rstudio-master/cpp-webapp1/build/CMakeFiles/CMakeScratch/TryCompile-xiwbcj'
-        
-        Run Build Command(s): F:/VSC/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c1c9e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.12.12+1cce77968 for .NET Framework
-        Build started 12/22/2024 9:07:27 PM.
-        
-        Project "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xiwbcj\\cmTC_c1c9e.vcxproj" on node 1 (default targets).
-        PrepareForBuild:
-          Creating directory "cmTC_c1c9e.dir\\Debug\\".
-          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xiwbcj\\Debug\\".
-          Creating directory "cmTC_c1c9e.dir\\Debug\\cmTC_c1c9e.tlog\\".
-        InitializeBuildStatus:
-          Creating "cmTC_c1c9e.dir\\Debug\\cmTC_c1c9e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_c1c9e.dir\\Debug\\cmTC_c1c9e.tlog\\unsuccessfulbuild".
-        VcpkgTripletSelection:
-          Using triplet "x64-windows" from "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\"
-          Using normalized configuration "Debug"
-        ClCompile:
-          F:\\VSC\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c1c9e.dir\\Debug\\\\" /Fd"cmTC_c1c9e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "F:\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34435 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /I"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c1c9e.dir\\Debug\\\\" /Fd"cmTC_c1c9e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "F:\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
-          CMakeCCompilerABI.c
-        Link:
-          F:\\VSC\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xiwbcj\\Debug\\cmTC_c1c9e.exe" /INCREMENTAL /ILK:"cmTC_c1c9e.dir\\Debug\\cmTC_c1c9e.ilk" /NOLOGO /LIBPATH:"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Admin/Downloads/rstudio-master/cpp-webapp1/build/CMakeFiles/CMakeScratch/TryCompile-xiwbcj/Debug/cmTC_c1c9e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Admin/Downloads/rstudio-master/cpp-webapp1/build/CMakeFiles/CMakeScratch/TryCompile-xiwbcj/Debug/cmTC_c1c9e.lib" /MACHINE:X64  /machine:x64 cmTC_c1c9e.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_c1c9e.vcxproj -> C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xiwbcj\\Debug\\cmTC_c1c9e.exe
-        AppLocalFromInstalled:
-          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xiwbcj\\Debug\\cmTC_c1c9e.exe" "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_c1c9e.dir\\Debug\\cmTC_c1c9e.tlog\\cmTC_c1c9e.write.1u.tlog" "cmTC_c1c9e.dir\\Debug\\vcpkg.applocal.log"
-          'pwsh.exe' is not recognized as an internal or external command,
-          operable program or batch file.
-          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xiwbcj\\Debug\\cmTC_c1c9e.exe" "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_c1c9e.dir\\Debug\\cmTC_c1c9e.tlog\\cmTC_c1c9e.write.1u.tlog" "cmTC_c1c9e.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
-          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xiwbcj\\Debug\\cmTC_c1c9e.exe" "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_c1c9e.dir\\Debug\\cmTC_c1c9e.tlog\\cmTC_c1c9e.write.1u.tlog" "cmTC_c1c9e.dir\\Debug\\vcpkg.applocal.log"
-        FinalizeBuildStatus:
-          Deleting file "cmTC_c1c9e.dir\\Debug\\cmTC_c1c9e.tlog\\unsuccessfulbuild".
-          Touching "cmTC_c1c9e.dir\\Debug\\cmTC_c1c9e.tlog\\cmTC_c1c9e.lastbuildstate".
-        Done Building Project "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xiwbcj\\cmTC_c1c9e.vcxproj" (default targets).
-        
-        Build succeeded.
-            0 Warning(s)
-            0 Error(s)
-        
-        Time Elapsed 00:00:06.68
+        Time Elapsed 00:00:02.29
         
       exitCode: 0
   -
@@ -465,8 +236,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/Admin/Downloads/rstudio-master/cpp-webapp1/build/CMakeFiles/CMakeScratch/TryCompile-t4mn7o"
-      binary: "C:/Users/Admin/Downloads/rstudio-master/cpp-webapp1/build/CMakeFiles/CMakeScratch/TryCompile-t4mn7o"
+      source: "C:/Users/Admin/Downloads/rstudio-master/cpp-webapp/build/CMakeFiles/CMakeScratch/TryCompile-urepkt"
+      binary: "C:/Users/Admin/Downloads/rstudio-master/cpp-webapp/build/CMakeFiles/CMakeScratch/TryCompile-urepkt"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
@@ -475,49 +246,49 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Admin/Downloads/rstudio-master/cpp-webapp1/build/CMakeFiles/CMakeScratch/TryCompile-t4mn7o'
+        Change Dir: 'C:/Users/Admin/Downloads/rstudio-master/cpp-webapp/build/CMakeFiles/CMakeScratch/TryCompile-urepkt'
         
-        Run Build Command(s): F:/VSC/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ddfa0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): F:/VSC/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_5bed9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.12.12+1cce77968 for .NET Framework
-        Build started 12/22/2024 9:07:36 PM.
+        Build started 12/23/2024 1:37:01 PM.
         
-        Project "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t4mn7o\\cmTC_ddfa0.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-urepkt\\cmTC_5bed9.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_ddfa0.dir\\Debug\\".
+          Creating directory "cmTC_5bed9.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t4mn7o\\Debug\\".
-          Creating directory "cmTC_ddfa0.dir\\Debug\\cmTC_ddfa0.tlog\\".
+          Creating directory "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-urepkt\\Debug\\".
+          Creating directory "cmTC_5bed9.dir\\Debug\\cmTC_5bed9.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_ddfa0.dir\\Debug\\cmTC_ddfa0.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_ddfa0.dir\\Debug\\cmTC_ddfa0.tlog\\unsuccessfulbuild".
+          Creating "cmTC_5bed9.dir\\Debug\\cmTC_5bed9.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_5bed9.dir\\Debug\\cmTC_5bed9.tlog\\unsuccessfulbuild".
         VcpkgTripletSelection:
           Using triplet "x64-windows" from "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\"
           Using normalized configuration "Debug"
         ClCompile:
-          F:\\VSC\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ddfa0.dir\\Debug\\\\" /Fd"cmTC_ddfa0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "F:\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          F:\\VSC\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5bed9.dir\\Debug\\\\" /Fd"cmTC_5bed9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "F:\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34435 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /I"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ddfa0.dir\\Debug\\\\" /Fd"cmTC_ddfa0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "F:\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /I"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5bed9.dir\\Debug\\\\" /Fd"cmTC_5bed9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "F:\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          F:\\VSC\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t4mn7o\\Debug\\cmTC_ddfa0.exe" /INCREMENTAL /ILK:"cmTC_ddfa0.dir\\Debug\\cmTC_ddfa0.ilk" /NOLOGO /LIBPATH:"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Admin/Downloads/rstudio-master/cpp-webapp1/build/CMakeFiles/CMakeScratch/TryCompile-t4mn7o/Debug/cmTC_ddfa0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Admin/Downloads/rstudio-master/cpp-webapp1/build/CMakeFiles/CMakeScratch/TryCompile-t4mn7o/Debug/cmTC_ddfa0.lib" /MACHINE:X64  /machine:x64 cmTC_ddfa0.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_ddfa0.vcxproj -> C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t4mn7o\\Debug\\cmTC_ddfa0.exe
+          F:\\VSC\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-urepkt\\Debug\\cmTC_5bed9.exe" /INCREMENTAL /ILK:"cmTC_5bed9.dir\\Debug\\cmTC_5bed9.ilk" /NOLOGO /LIBPATH:"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Admin/Downloads/rstudio-master/cpp-webapp/build/CMakeFiles/CMakeScratch/TryCompile-urepkt/Debug/cmTC_5bed9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Admin/Downloads/rstudio-master/cpp-webapp/build/CMakeFiles/CMakeScratch/TryCompile-urepkt/Debug/cmTC_5bed9.lib" /MACHINE:X64  /machine:x64 cmTC_5bed9.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_5bed9.vcxproj -> C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-urepkt\\Debug\\cmTC_5bed9.exe
         AppLocalFromInstalled:
-          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t4mn7o\\Debug\\cmTC_ddfa0.exe" "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_ddfa0.dir\\Debug\\cmTC_ddfa0.tlog\\cmTC_ddfa0.write.1u.tlog" "cmTC_ddfa0.dir\\Debug\\vcpkg.applocal.log"
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-urepkt\\Debug\\cmTC_5bed9.exe" "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_5bed9.dir\\Debug\\cmTC_5bed9.tlog\\cmTC_5bed9.write.1u.tlog" "cmTC_5bed9.dir\\Debug\\vcpkg.applocal.log"
           'pwsh.exe' is not recognized as an internal or external command,
           operable program or batch file.
-          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t4mn7o\\Debug\\cmTC_ddfa0.exe" "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_ddfa0.dir\\Debug\\cmTC_ddfa0.tlog\\cmTC_ddfa0.write.1u.tlog" "cmTC_ddfa0.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
-          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t4mn7o\\Debug\\cmTC_ddfa0.exe" "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_ddfa0.dir\\Debug\\cmTC_ddfa0.tlog\\cmTC_ddfa0.write.1u.tlog" "cmTC_ddfa0.dir\\Debug\\vcpkg.applocal.log"
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-urepkt\\Debug\\cmTC_5bed9.exe" "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_5bed9.dir\\Debug\\cmTC_5bed9.tlog\\cmTC_5bed9.write.1u.tlog" "cmTC_5bed9.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-urepkt\\Debug\\cmTC_5bed9.exe" "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_5bed9.dir\\Debug\\cmTC_5bed9.tlog\\cmTC_5bed9.write.1u.tlog" "cmTC_5bed9.dir\\Debug\\vcpkg.applocal.log"
         FinalizeBuildStatus:
-          Deleting file "cmTC_ddfa0.dir\\Debug\\cmTC_ddfa0.tlog\\unsuccessfulbuild".
-          Touching "cmTC_ddfa0.dir\\Debug\\cmTC_ddfa0.tlog\\cmTC_ddfa0.lastbuildstate".
-        Done Building Project "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t4mn7o\\cmTC_ddfa0.vcxproj" (default targets).
+          Deleting file "cmTC_5bed9.dir\\Debug\\cmTC_5bed9.tlog\\unsuccessfulbuild".
+          Touching "cmTC_5bed9.dir\\Debug\\cmTC_5bed9.tlog\\cmTC_5bed9.lastbuildstate".
+        Done Building Project "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-urepkt\\cmTC_5bed9.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:06.83
+        Time Elapsed 00:00:02.36
         
       exitCode: 0
   -
@@ -548,10 +319,6 @@ events:
       Running the CXX compiler's linker: "F:/VSC/2022/Community/VC/Tools/MSVC/14.42.34433/bin/HostX64/x64/link.exe" "-v"
       Microsoft (R) Incremental Linker Version 14.42.34435.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
-...
-
----
-events:
   -
     kind: "try_compile-v1"
     backtrace:
@@ -565,10 +332,10 @@ events:
       - "F:/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
       - "C:/Users/Admin/Downloads/rstudio-master/vcpkg/installed/x64-windows/share/crow/CrowConfig.cmake:32 (find_dependency)"
       - "C:/Users/Admin/Downloads/rstudio-master/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
-      - "CMakeLists.txt:6 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
     directories:
-      source: "C:/Users/Admin/Downloads/rstudio-master/cpp-webapp1/build/CMakeFiles/CMakeScratch/TryCompile-n49vyx"
-      binary: "C:/Users/Admin/Downloads/rstudio-master/cpp-webapp1/build/CMakeFiles/CMakeScratch/TryCompile-n49vyx"
+      source: "C:/Users/Admin/Downloads/rstudio-master/cpp-webapp/build/CMakeFiles/CMakeScratch/TryCompile-4g4p81"
+      binary: "C:/Users/Admin/Downloads/rstudio-master/cpp-webapp/build/CMakeFiles/CMakeScratch/TryCompile-4g4p81"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -581,43 +348,43 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Admin/Downloads/rstudio-master/cpp-webapp1/build/CMakeFiles/CMakeScratch/TryCompile-n49vyx'
+        Change Dir: 'C:/Users/Admin/Downloads/rstudio-master/cpp-webapp/build/CMakeFiles/CMakeScratch/TryCompile-4g4p81'
         
-        Run Build Command(s): F:/VSC/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f0303.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): F:/VSC/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d8c97.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.12.12+1cce77968 for .NET Framework
-        Build started 12/22/2024 9:25:04 PM.
+        Build started 12/23/2024 1:37:04 PM.
         
-        Project "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n49vyx\\cmTC_f0303.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g4p81\\cmTC_d8c97.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_f0303.dir\\Debug\\".
+          Creating directory "cmTC_d8c97.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n49vyx\\Debug\\".
-          Creating directory "cmTC_f0303.dir\\Debug\\cmTC_f0303.tlog\\".
+          Creating directory "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g4p81\\Debug\\".
+          Creating directory "cmTC_d8c97.dir\\Debug\\cmTC_d8c97.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_f0303.dir\\Debug\\cmTC_f0303.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_f0303.dir\\Debug\\cmTC_f0303.tlog\\unsuccessfulbuild".
+          Creating "cmTC_d8c97.dir\\Debug\\cmTC_d8c97.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_d8c97.dir\\Debug\\cmTC_d8c97.tlog\\unsuccessfulbuild".
         VcpkgTripletSelection:
           Using triplet "x64-windows" from "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\"
           Using normalized configuration "Debug"
         ClCompile:
-          F:\\VSC\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f0303.dir\\Debug\\\\" /Fd"cmTC_f0303.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n49vyx\\src.c"
+          F:\\VSC\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d8c97.dir\\Debug\\\\" /Fd"cmTC_d8c97.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g4p81\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34435 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /I"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f0303.dir\\Debug\\\\" /Fd"cmTC_f0303.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n49vyx\\src.c"
+          cl /c /I"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d8c97.dir\\Debug\\\\" /Fd"cmTC_d8c97.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g4p81\\src.c"
           src.c
-        C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n49vyx\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n49vyx\\cmTC_f0303.vcxproj]
-        Done Building Project "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n49vyx\\cmTC_f0303.vcxproj" (default targets) -- FAILED.
+        C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g4p81\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g4p81\\cmTC_d8c97.vcxproj]
+        Done Building Project "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g4p81\\cmTC_d8c97.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n49vyx\\cmTC_f0303.vcxproj" (default target) (1) ->
+        "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g4p81\\cmTC_d8c97.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n49vyx\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n49vyx\\cmTC_f0303.vcxproj]
+          C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g4p81\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g4p81\\cmTC_d8c97.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:02.73
+        Time Elapsed 00:00:01.58
         
       exitCode: 1
   -
@@ -632,10 +399,10 @@ events:
       - "F:/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
       - "C:/Users/Admin/Downloads/rstudio-master/vcpkg/installed/x64-windows/share/crow/CrowConfig.cmake:32 (find_dependency)"
       - "C:/Users/Admin/Downloads/rstudio-master/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
-      - "CMakeLists.txt:6 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
     directories:
-      source: "C:/Users/Admin/Downloads/rstudio-master/cpp-webapp1/build/CMakeFiles/CMakeScratch/TryCompile-3o4u2o"
-      binary: "C:/Users/Admin/Downloads/rstudio-master/cpp-webapp1/build/CMakeFiles/CMakeScratch/TryCompile-3o4u2o"
+      source: "C:/Users/Admin/Downloads/rstudio-master/cpp-webapp/build/CMakeFiles/CMakeScratch/TryCompile-raaesf"
+      binary: "C:/Users/Admin/Downloads/rstudio-master/cpp-webapp/build/CMakeFiles/CMakeScratch/TryCompile-raaesf"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -648,45 +415,45 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Admin/Downloads/rstudio-master/cpp-webapp1/build/CMakeFiles/CMakeScratch/TryCompile-3o4u2o'
+        Change Dir: 'C:/Users/Admin/Downloads/rstudio-master/cpp-webapp/build/CMakeFiles/CMakeScratch/TryCompile-raaesf'
         
-        Run Build Command(s): F:/VSC/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b7b68.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): F:/VSC/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_97b0d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.12.12+1cce77968 for .NET Framework
-        Build started 12/22/2024 9:25:08 PM.
+        Build started 12/23/2024 1:37:07 PM.
         
-        Project "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3o4u2o\\cmTC_b7b68.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-raaesf\\cmTC_97b0d.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_b7b68.dir\\Debug\\".
+          Creating directory "cmTC_97b0d.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3o4u2o\\Debug\\".
-          Creating directory "cmTC_b7b68.dir\\Debug\\cmTC_b7b68.tlog\\".
+          Creating directory "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-raaesf\\Debug\\".
+          Creating directory "cmTC_97b0d.dir\\Debug\\cmTC_97b0d.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_b7b68.dir\\Debug\\cmTC_b7b68.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_b7b68.dir\\Debug\\cmTC_b7b68.tlog\\unsuccessfulbuild".
+          Creating "cmTC_97b0d.dir\\Debug\\cmTC_97b0d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_97b0d.dir\\Debug\\cmTC_97b0d.tlog\\unsuccessfulbuild".
         VcpkgTripletSelection:
           Using triplet "x64-windows" from "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\"
           Using normalized configuration "Debug"
         ClCompile:
-          F:\\VSC\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b7b68.dir\\Debug\\\\" /Fd"cmTC_b7b68.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3o4u2o\\CheckFunctionExists.c"
+          F:\\VSC\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_97b0d.dir\\Debug\\\\" /Fd"cmTC_97b0d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-raaesf\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34435 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /I"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b7b68.dir\\Debug\\\\" /Fd"cmTC_b7b68.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3o4u2o\\CheckFunctionExists.c"
+          cl /c /I"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_97b0d.dir\\Debug\\\\" /Fd"cmTC_97b0d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-raaesf\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          F:\\VSC\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3o4u2o\\Debug\\cmTC_b7b68.exe" /INCREMENTAL /ILK:"cmTC_b7b68.dir\\Debug\\cmTC_b7b68.ilk" /NOLOGO /LIBPATH:"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Admin/Downloads/rstudio-master/cpp-webapp1/build/CMakeFiles/CMakeScratch/TryCompile-3o4u2o/Debug/cmTC_b7b68.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Admin/Downloads/rstudio-master/cpp-webapp1/build/CMakeFiles/CMakeScratch/TryCompile-3o4u2o/Debug/cmTC_b7b68.lib" /MACHINE:X64  /machine:x64 cmTC_b7b68.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3o4u2o\\cmTC_b7b68.vcxproj]
-        Done Building Project "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3o4u2o\\cmTC_b7b68.vcxproj" (default targets) -- FAILED.
+          F:\\VSC\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-raaesf\\Debug\\cmTC_97b0d.exe" /INCREMENTAL /ILK:"cmTC_97b0d.dir\\Debug\\cmTC_97b0d.ilk" /NOLOGO /LIBPATH:"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Admin/Downloads/rstudio-master/cpp-webapp/build/CMakeFiles/CMakeScratch/TryCompile-raaesf/Debug/cmTC_97b0d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Admin/Downloads/rstudio-master/cpp-webapp/build/CMakeFiles/CMakeScratch/TryCompile-raaesf/Debug/cmTC_97b0d.lib" /MACHINE:X64  /machine:x64 cmTC_97b0d.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-raaesf\\cmTC_97b0d.vcxproj]
+        Done Building Project "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-raaesf\\cmTC_97b0d.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3o4u2o\\cmTC_b7b68.vcxproj" (default target) (1) ->
+        "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-raaesf\\cmTC_97b0d.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3o4u2o\\cmTC_b7b68.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-raaesf\\cmTC_97b0d.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:01.84
+        Time Elapsed 00:00:01.73
         
       exitCode: 1
   -
@@ -701,10 +468,10 @@ events:
       - "F:/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
       - "C:/Users/Admin/Downloads/rstudio-master/vcpkg/installed/x64-windows/share/crow/CrowConfig.cmake:32 (find_dependency)"
       - "C:/Users/Admin/Downloads/rstudio-master/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
-      - "CMakeLists.txt:6 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
     directories:
-      source: "C:/Users/Admin/Downloads/rstudio-master/cpp-webapp1/build/CMakeFiles/CMakeScratch/TryCompile-ogcrjp"
-      binary: "C:/Users/Admin/Downloads/rstudio-master/cpp-webapp1/build/CMakeFiles/CMakeScratch/TryCompile-ogcrjp"
+      source: "C:/Users/Admin/Downloads/rstudio-master/cpp-webapp/build/CMakeFiles/CMakeScratch/TryCompile-h0i2pu"
+      binary: "C:/Users/Admin/Downloads/rstudio-master/cpp-webapp/build/CMakeFiles/CMakeScratch/TryCompile-h0i2pu"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -717,45 +484,45 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Admin/Downloads/rstudio-master/cpp-webapp1/build/CMakeFiles/CMakeScratch/TryCompile-ogcrjp'
+        Change Dir: 'C:/Users/Admin/Downloads/rstudio-master/cpp-webapp/build/CMakeFiles/CMakeScratch/TryCompile-h0i2pu'
         
-        Run Build Command(s): F:/VSC/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3eb8f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): F:/VSC/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_7f3f6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.12.12+1cce77968 for .NET Framework
-        Build started 12/22/2024 9:25:10 PM.
+        Build started 12/23/2024 1:37:09 PM.
         
-        Project "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ogcrjp\\cmTC_3eb8f.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h0i2pu\\cmTC_7f3f6.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_3eb8f.dir\\Debug\\".
+          Creating directory "cmTC_7f3f6.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ogcrjp\\Debug\\".
-          Creating directory "cmTC_3eb8f.dir\\Debug\\cmTC_3eb8f.tlog\\".
+          Creating directory "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h0i2pu\\Debug\\".
+          Creating directory "cmTC_7f3f6.dir\\Debug\\cmTC_7f3f6.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_3eb8f.dir\\Debug\\cmTC_3eb8f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_3eb8f.dir\\Debug\\cmTC_3eb8f.tlog\\unsuccessfulbuild".
+          Creating "cmTC_7f3f6.dir\\Debug\\cmTC_7f3f6.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_7f3f6.dir\\Debug\\cmTC_7f3f6.tlog\\unsuccessfulbuild".
         VcpkgTripletSelection:
           Using triplet "x64-windows" from "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\"
           Using normalized configuration "Debug"
         ClCompile:
-          F:\\VSC\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3eb8f.dir\\Debug\\\\" /Fd"cmTC_3eb8f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ogcrjp\\CheckFunctionExists.c"
+          F:\\VSC\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7f3f6.dir\\Debug\\\\" /Fd"cmTC_7f3f6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h0i2pu\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34435 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /I"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3eb8f.dir\\Debug\\\\" /Fd"cmTC_3eb8f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ogcrjp\\CheckFunctionExists.c"
+          cl /c /I"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7f3f6.dir\\Debug\\\\" /Fd"cmTC_7f3f6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h0i2pu\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          F:\\VSC\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ogcrjp\\Debug\\cmTC_3eb8f.exe" /INCREMENTAL /ILK:"cmTC_3eb8f.dir\\Debug\\cmTC_3eb8f.ilk" /NOLOGO /LIBPATH:"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Admin/Downloads/rstudio-master/cpp-webapp1/build/CMakeFiles/CMakeScratch/TryCompile-ogcrjp/Debug/cmTC_3eb8f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Admin/Downloads/rstudio-master/cpp-webapp1/build/CMakeFiles/CMakeScratch/TryCompile-ogcrjp/Debug/cmTC_3eb8f.lib" /MACHINE:X64  /machine:x64 cmTC_3eb8f.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ogcrjp\\cmTC_3eb8f.vcxproj]
-        Done Building Project "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ogcrjp\\cmTC_3eb8f.vcxproj" (default targets) -- FAILED.
+          F:\\VSC\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h0i2pu\\Debug\\cmTC_7f3f6.exe" /INCREMENTAL /ILK:"cmTC_7f3f6.dir\\Debug\\cmTC_7f3f6.ilk" /NOLOGO /LIBPATH:"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\Admin\\Downloads\\rstudio-master\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Admin/Downloads/rstudio-master/cpp-webapp/build/CMakeFiles/CMakeScratch/TryCompile-h0i2pu/Debug/cmTC_7f3f6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Admin/Downloads/rstudio-master/cpp-webapp/build/CMakeFiles/CMakeScratch/TryCompile-h0i2pu/Debug/cmTC_7f3f6.lib" /MACHINE:X64  /machine:x64 cmTC_7f3f6.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h0i2pu\\cmTC_7f3f6.vcxproj]
+        Done Building Project "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h0i2pu\\cmTC_7f3f6.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ogcrjp\\cmTC_3eb8f.vcxproj" (default target) (1) ->
+        "C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h0i2pu\\cmTC_7f3f6.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ogcrjp\\cmTC_3eb8f.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\Admin\\Downloads\\rstudio-master\\cpp-webapp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h0i2pu\\cmTC_7f3f6.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:01.83
+        Time Elapsed 00:00:01.62
         
       exitCode: 1
 ...

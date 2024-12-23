@@ -1,6 +1,6 @@
-^C:\USERS\ADMIN\DOWNLOADS\RSTUDIO-MASTER\CPP-WEBAPP1\BUILD\CMAKEFILES\85BF390E13DF51C81BE533E9542AFA2E\GENERATE.STAMP.RULE
+^C:\USERS\ADMIN\DOWNLOADS\RSTUDIO-MASTER\CPP-WEBAPP\BUILD\CMAKEFILES\9FF43202489BAF30CBB356B15286AE27\GENERATE.STAMP.RULE
 setlocal
-F:\CMake\bin\cmake.exe -SC:/Users/Admin/Downloads/rstudio-master/cpp-webapp1 -BC:/Users/Admin/Downloads/rstudio-master/cpp-webapp1/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Admin/Downloads/rstudio-master/cpp-webapp1/build/web.sln
+F:\CMake\bin\cmake.exe -SC:/Users/Admin/Downloads/rstudio-master/cpp-webapp -BC:/Users/Admin/Downloads/rstudio-master/cpp-webapp/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Admin/Downloads/rstudio-master/cpp-webapp/build/web.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
