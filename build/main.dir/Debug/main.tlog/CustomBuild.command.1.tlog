@@ -1,0 +1,10 @@
+^C:\USERS\ADMIN\DOWNLOADS\RSTUDIO-MASTER\CPP-WEBAPP1\CMAKELISTS.TXT
+setlocal
+F:\CMake\bin\cmake.exe -SC:/Users/Admin/Downloads/rstudio-master/cpp-webapp1 -BC:/Users/Admin/Downloads/rstudio-master/cpp-webapp1/build --check-stamp-file C:/Users/Admin/Downloads/rstudio-master/cpp-webapp1/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
